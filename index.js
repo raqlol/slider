@@ -30,6 +30,9 @@ function setRightReset() {
   rightImg = slider.length - 1;
 }
 //left right button actions
+function moveLeft() {
+  console.log('noting yet')
+}
 function moveRight() {
   clearInterval(autoInterval);
   console.log('you stopped the auto slider ... the fate of this slider is in your hands')
